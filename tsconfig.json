@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "module": "system",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "outDir": "./assets/js/",
+      "sourceMap": true,
+      "allowJs": true,
+      "checkJs": true
+    },
+    "include": ["./assets/ts/"],
+    "exclude": ["./assets/js/"]
+}
