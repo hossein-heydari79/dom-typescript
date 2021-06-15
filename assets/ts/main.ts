@@ -20,6 +20,7 @@ function addDo(goal: string, date: string): void {
 
   let i1 = document.createElement("i");
   i1.className = "fa fa-close";
+  i1.style.cursor = "pointer";
   i1.addEventListener("click", (): void => {
     i1.parentElement.parentElement.remove();
   });
@@ -32,6 +33,7 @@ function addDo(goal: string, date: string): void {
 
   let i2 = document.createElement("i");
   i2.className = "fa fa-edit";
+  i2.style.cursor = "pointer";
   i2.addEventListener("click", function (): void {
     let parent: HTMLElement = this.parentElement.parentElement;
 

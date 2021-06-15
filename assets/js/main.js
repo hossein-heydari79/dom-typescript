@@ -15,6 +15,7 @@ function addDo(goal, date) {
     td1.setAttribute("class", "text-center");
     var i1 = document.createElement("i");
     i1.className = "fa fa-close";
+    i1.style.cursor = "pointer";
     i1.addEventListener("click", function () {
         i1.parentElement.parentElement.remove();
     });
@@ -24,6 +25,7 @@ function addDo(goal, date) {
     td2.setAttribute("class", "text-center");
     var i2 = document.createElement("i");
     i2.className = "fa fa-edit";
+    i2.style.cursor = "pointer";
     i2.addEventListener("click", function () {
         var parent = this.parentElement.parentElement;
         var gloaa = parent.querySelector(".goal");
